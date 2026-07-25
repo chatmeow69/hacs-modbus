@@ -59,10 +59,10 @@ DEVICES = [
     {"name": "Sejour", "device_id": 1, "input": "X04", "output": "Y04", "type": "light"},
 
     {"name": "Passerelle", "device_id": 1, "input": "X05", "output": "Y05", "type": "light"},
-#ancien   {"name": "SDJ", "device_id": 1, "input": "X06", "output": "Y06", "type": "light"},
+    {"name": "Cabanon", "device_id": 1, "input": "X06", "output": "Y06", "type": "light"},
     {"name": "SDJ", "device_id": 1, "input": "X07", "output": "Y07", "type": "light"},
- # GRENIER ABSENT 
- # WC ETAGE ABSENT  
+    {"name": "WC étage", "device_id": 1, "input": "X08", "output": "Y08", "type": "light"},
+
     # ===== LUMIERES RDC (Device 2) =====
 
     {"name": "Salon1", "device_id": 2, "input": "I01", "output": "Q01", "type": "light"},
@@ -107,7 +107,7 @@ DEVICES = [
     #{"name": "Heures_creuses", "device_id": 5, "input": "I06", "output": "M0A", "type": "toggle_switch"},
     {"name": "Heures_creuses", "device_id": 5, "output": "M10", "type": "sensor"},
 
-    {"name": "Cabanon", "device_id": 5, "input": "X3", "output": "Y3", "type": "light"},
+    #{"name": "Cabanon", "device_id": 5, "input": "X3", "output": "Y3", "type": "light"},
     
     {"name": "Ouverture partielle", "device_id": 5, "input": "M0B", "type": "button"},
     {"name": "Verrouillage", "device_id": 5, "input": "X03", "type": "button"},
