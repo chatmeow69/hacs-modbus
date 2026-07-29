@@ -53,7 +53,7 @@ DEVICES = [
     {"name": "SDB", "device_id": 1, "input": "I07", "output": "Q07", "type": "light"},
     {"name": "SDB_miroir", "device_id": 1, "input": "I08", "output": "Q08", "type": "light"},
 
-#    {"name": "Grenier", "device_id": 1, "input": "X01", "output": "Y01", "type": "light"},
+    {"name": "Grenier", "device_id": 1, "input": "X01", "output": "Y01", "type": "light"},
     {"name": "Couloir", "device_id": 1, "input": "X02", "output": "Y02", "type": "light"},
     {"name": "Mezzanine", "device_id": 1, "input": "X03", "output": "Y03", "type": "light"},
     {"name": "Sejour", "device_id": 1, "input": "X04", "output": "Y04", "type": "light"},
