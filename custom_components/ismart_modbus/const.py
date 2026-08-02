@@ -99,7 +99,9 @@ DEVICES = [
     {"name": "Apoint", "device_id": 5, "input": "I01", "output": "Q01", "type": "light"},
     {"name": "Ampli", "device_id": 5, "input": "I02", "output": "Q02", "type": "toggle_switch"},
     {"name": "Electrovanne_1", "device_id": 5, "input": "I03", "output": "Q03", "type": "toggle_switch"},
-    {"name": "Electrovanne_2", "device_id": 5, "input": "I04", "output": "Q04", "type": "toggle_switch"},
+    #{"name": "Electrovanne_2", "device_id": 5, "input": "I04", "output": "Q04", "type": "toggle_switch"},
+    {"name": "Forçage_ECS_elec", "device_id": 5, "input": "M0B", "output": "Q04", "type": "switch"},
+    
     {"name": "SDB_radiateur", "device_id": 5, "input": "I07", "output": "Q07", "type": "toggle_switch"},
 
     {"name": "Scooter", "device_id": 5, "input": "M08", "output": "Q05", "type": "switch"},
